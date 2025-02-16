@@ -1,0 +1,371 @@
+{
+    "rules": [
+        {
+            "predicate": "All",
+            "conditions": [
+                {
+                    "field": "from",
+                    "operator": "contains",
+                    "value": "205bhuvics"
+                },
+                {
+                    "field": "subject",
+                    "operator": "contains",
+                    "value": "Update"
+                }
+            ],
+            "actions": [
+                "mark_as_read",
+                "move_to_folder:Important"
+            ]
+        },
+        {
+            "predicate": "Any",
+            "conditions": [
+                {
+                    "field": "from",
+                    "operator": "contains",
+                    "value": "Google"
+                },
+                {
+                    "field": "subject",
+                    "operator": "contains",
+                    "value": "Weekly Update"
+                }
+            ],
+            "actions": [
+                "mark_as_unread",
+                "move_to_folder:SPAM"
+            ]
+        },
+        {
+            "predicate": "Any",
+            "conditions": [
+                {
+                    "field": "subject",
+                    "operator": "contains",
+                    "value": "College"
+                },
+                {
+                    "field": "subject",
+                    "operator": "contains",
+                    "value": "Library"
+                }
+            ],
+            "actions": [
+                "move_to_folder:College",
+                "mark_as_read"
+            ]
+        },
+        {
+            "predicate": "Any",
+            "conditions": [
+                {
+                    "field": "subject",
+                    "operator": "contains",
+                    "value": "College"
+                }
+            ],
+            "actions": [
+                "move_to_folder:College"
+            ]
+        },
+        {
+            "predicate": "Any",
+            "conditions": [
+                {
+                    "field": "subject",
+                    "operator": "contains",
+                    "value": "College"
+                },
+                {
+                    "field": "subject",
+                    "operator": "contains",
+                    "value": "Library"
+                }
+            ],
+            "actions": [
+                "mark_as_read",
+                "move_to_folder:College"
+            ]
+        },
+        {
+            "predicate": "Any",
+            "conditions": [
+                {
+                    "field": "subject",
+                    "operator": "contains",
+                    "value": "College"
+                },
+                {
+                    "field": "subject",
+                    "operator": "contains",
+                    "value": "Library"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "predicate": "Any",
+            "conditions": [
+                {
+                    "field": "subject",
+                    "operator": "contains",
+                    "value": "College"
+                }
+            ],
+            "actions": [
+                "mark_as_read",
+                "move_to_folder:College"
+            ]
+        },
+        {
+            "predicate": "Any",
+            "conditions": [
+                {
+                    "field": "subject",
+                    "operator": "contains",
+                    "value": "Library"
+                }
+            ],
+            "actions": [
+                "mark_as_read",
+                "move_to_folder:College"
+            ]
+        },
+        {
+            "predicate": "Any",
+            "conditions": [
+                {
+                    "field": "subject",
+                    "operator": "contains",
+                    "value": "College"
+                }
+            ],
+            "actions": [
+                "mark_as_unread",
+                "move_to_folder:College"
+            ]
+        },
+        {
+            "predicate": "Any",
+            "conditions": [
+                {
+                    "field": "subject",
+                    "operator": "contains",
+                    "value": "test mail for college"
+                }
+            ],
+            "actions": [
+                "mark_as_read",
+                "move_to_folder:college"
+            ]
+        },
+        {
+            "predicate": "Any",
+            "conditions": [
+                {
+                    "field": "subject",
+                    "operator": "contains",
+                    "value": "College"
+                }
+            ],
+            "actions": [
+                "mark_as_read",
+                "move_to_folder:College"
+            ]
+        },
+        {
+            "predicate": "Any",
+            "conditions": [
+                {
+                    "field": "subject",
+                    "operator": "contains",
+                    "value": "College"
+                }
+            ],
+            "actions": [
+                "mark_as_read",
+                "move_to_folder:College"
+            ]
+        },
+        {
+            "predicate": "All",
+            "conditions": [
+                {
+                    "field": "from",
+                    "operator": "contains",
+                    "value": "test@example.com"
+                },
+                {
+                    "field": "from",
+                    "operator": "does_not_contain",
+                    "value": "example.com"
+                }
+            ],
+            "actions": [
+                "mark_as_read"
+            ]
+        },
+        {
+            "predicate": "All",
+            "conditions": [
+                {
+                    "field": "from",
+                    "operator": "contains",
+                    "value": "test@example.com"
+                },
+                {
+                    "field": "from",
+                    "operator": "does_not_contain",
+                    "value": "example.com"
+                }
+            ],
+            "actions": [
+                "mark_as_read"
+            ]
+        },
+        {
+            "predicate": "Any",
+            "conditions": [
+                {
+                    "field": "subject",
+                    "operator": "contains",
+                    "value": "College"
+                }
+            ],
+            "actions": [
+                "mark_as_read",
+                "move_to_folder:College"
+            ]
+        },
+        {
+            "predicate": "All",
+            "conditions": [
+                {
+                    "field": "from",
+                    "operator": "contains",
+                    "value": "test@example.com"
+                },
+                {
+                    "field": "from",
+                    "operator": "does_not_contain",
+                    "value": "example.com"
+                }
+            ],
+            "actions": [
+                "mark_as_read"
+            ]
+        },
+        {
+            "predicate": "Any",
+            "conditions": [
+                {
+                    "field": "from",
+                    "operator": "contains",
+                    "value": "Meghana"
+                }
+            ],
+            "actions": [
+                "mark_as_read",
+                "move_to_folder:college"
+            ]
+        },
+        {
+            "predicate": "All",
+            "conditions": [
+                {
+                    "field": "from",
+                    "operator": "contains",
+                    "value": "test@example.com"
+                },
+                {
+                    "field": "from",
+                    "operator": "does_not_contain",
+                    "value": "example.com"
+                }
+            ],
+            "actions": [
+                "mark_as_read"
+            ]
+        },
+        {
+            "predicate": "Any",
+            "conditions": [
+                {
+                    "field": "subject",
+                    "operator": "contains",
+                    "value": "College"
+                }
+            ],
+            "actions": [
+                "mark_as_read",
+                "move_to_folder:College"
+            ]
+        },
+        {
+            "predicate": "Any",
+            "conditions": [
+                {
+                    "field": "subject",
+                    "operator": "contains",
+                    "value": "College"
+                }
+            ],
+            "actions": [
+                "mark_as_read",
+                "move_to_folder:College"
+            ]
+        },
+        {
+            "predicate": "All",
+            "conditions": [
+                {
+                    "field": "from",
+                    "operator": "contains",
+                    "value": "test@example.com"
+                },
+                {
+                    "field": "from",
+                    "operator": "does_not_contain",
+                    "value": "example.com"
+                }
+            ],
+            "actions": [
+                "mark_as_read"
+            ]
+        },
+        {
+            "predicate": "Any",
+            "conditions": [
+                {
+                    "field": "subject",
+                    "operator": "contains",
+                    "value": "College"
+                }
+            ],
+            "actions": [
+                "mark_as_read",
+                "move_to_folder:Assignment"
+            ]
+        },
+        {
+            "predicate": "All",
+            "conditions": [
+                {
+                    "field": "from",
+                    "operator": "contains",
+                    "value": "test@example.com"
+                },
+                {
+                    "field": "from",
+                    "operator": "does_not_contain",
+                    "value": "example.com"
+                }
+            ],
+            "actions": [
+                "mark_as_read"
+            ]
+        }
+    ]
+}
